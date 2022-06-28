@@ -1,0 +1,109 @@
+<!--tells browser which version of html is being used -->
+<!DOCTYPE html>
+<!--tells browser that everything between opening and close is html-->
+<html>
+    <!--part of html file that holds info about webpage-->
+    <head>
+        <!--meta elements give meta data to html doc&#45;&#45; in this case,
+            all the info is encoded using the utf-8 encoding system
+            utf-8 is the standard encoding with html5 that includes all needed symbols-->
+        <meta charset="utf-8">
+        <title>Noah's Wonderful Website</title>
+    </head>
+    <!--Body Contents-->
+    <body>
+        <!-- html table -->
+        <!-- cellspacing is used to spread the table columns apart...
+            using this is poor practice (there's a better way using CSS)-->
+        <table cellspacing="20">
+            <tr>
+                <!--There are many other image attributes as well...-->
+                <td>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGh9MuSLrT9oExQHbuLk_VOvKnw3lcNev_iIE55X7FxyXJqBU0dhSEjGU5p6X5Oe_fKS8&usqp=CAU" alt="Picture of Kanye">
+                </td>
+
+                <td>
+                    <!-- CREATING A HYPERLINK: <a href=LINK> Desired HyperLink text</a> -->
+                    <h1> <a href="https://www.linkedin.com/in/noahsj/">Noah Jacobs</a> </h1>
+                    <!--<p></p> denotes paragraph format, <em></em> denotes a better version of italics for html-->
+                    <!--should also use <strong></strong> tag rather than <b></b> for bold-->
+                    <p> <em>Rising Senior at <strong>the University of Michigan</strong> </em> </p>
+                    <p>Major: Cognitive Science; Minor: Computer Science</p>
+                </td>
+            </tr>
+        </table>
+
+        <hr size="3" color="Yellow">
+        <hr size="3" color="Blue">
+
+        <h3> <strong>Education</strong> </h3>
+        <ul>
+            <li>First list item :o</li>
+            <li>Second list item ;)</li>
+            <li>Yada Yada Yada</li>
+            <li>So on and so forth</li>
+        </ul>
+        <hr size="2" color="Black">
+
+        <h3> <strong>Work Experience</strong> </h3>
+        <table border="1">
+            <!--Although the table may look the same without specifying "thead" (table header),
+                it is useful if you want to style the header differently than the body or something like that-->
+            <thead>
+                <!-- table row -->
+                <tr>
+                    <!-- table header -->
+                    <th>Date</th>
+                    <th>Job</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <!-- table data/cell -->
+                    <td>first date</td>
+                    <td>first job title</td>
+                </tr>
+                <tr>
+                    <!-- table data/cell -->
+                    <td>second date</td>
+                    <td>second job title</td>
+                </tr>
+            </tbody>
+        </table> <br>
+        <hr size="2" color="Black">
+
+        <h3>Skills</h3>
+        <table cellspacing="10">
+<!--            <thead>-->
+<!--                <th>Development</th>-->
+<!--                <th>Languages</th>-->
+<!--            </thead>-->
+            <tbody>
+                <tr>
+                    <td>iOS Development ⭐⭐️</td>
+                    <td>C++ ⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Web Development ⭐⭐️</td>
+                    <td>Python ⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>HTML⭐⭐⭐</td>
+                </tr>
+
+            </tbody>
+        </table> <br>
+        <hr size="2" color="Black">
+
+        <h3><strong>Other</strong></h3>
+        <a href="input-types.html">Messing w/ inputs</a>
+        <br> <br>
+        <!--By creating a new file for hobbies, we are able to move from page to page on the website-->
+        <a href="hobbies.html">My Hobbies 🤪</a>
+        <br> <br>
+        <a href="contact-info.html">Contact Me!</a>
+    </body>
+</html>
+
